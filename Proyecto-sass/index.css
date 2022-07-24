@@ -1,0 +1,89 @@
+body {
+  grid-template-columns: 5;
+  background: #202020;
+}
+
+.navegacion {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imagen {
+  height: 150px;
+  padding: 150pxs;
+}
+
+.Preguntas {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  white-space: nowrap;
+}
+
+.Preguntas input#search {
+  width: 300px;
+  padding: 10px;
+  background: #101010;
+  color: white;
+  border: 1px solid;
+  font-size: 16pt;
+  border-radius: 2px;
+}
+
+.Posicion {
+  display: flex;
+  flex-direction: row;
+}
+
+.Boton-Boton1 {
+  padding: 20px;
+  margin: 10px;
+  background-color: green;
+  color: yellow;
+  font-size: 16pt;
+  font-weight: 700;
+}
+
+.Boton-Boton2 {
+  padding: 30px;
+  margin: 15px;
+  background-color: yellow;
+  color: red;
+  font-size: 18pt;
+  font-weight: 800;
+}
+
+.Boton-Boton3 {
+  padding: 40px;
+  margin: 20px;
+  background-color: red;
+  color: green;
+  font-size: 20pt;
+  font-weight: 900;
+}
+
+.Boton-Boton1 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.Boton-Boton2 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+}
+
+.Boton-Boton3 {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+}/*# sourceMappingURL=index.css.map */
