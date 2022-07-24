@@ -1,0 +1,43 @@
+.Posicion
+    display: flex
+    flex-direction: row
+
+@mixin Boton-choose($name, $property1, $value1, $property2, $value2, $property3, $value3, $property4, $value4, $property5, $value5, $property6, $value6)
+    .Boton-#{$name}
+        @if $property1 == padding and $value1
+            #{$property1}: $value1
+        @if $property2 == margin and $value2 
+            #{$property2}: $value2
+        @if $property3 == background-color and $value3
+            #{$property3}: $value3
+        @if $property4 == color and $value4 
+            #{$property4}: $value4
+        @if $property5 == font-size and $value5
+            #{$property5}: $value5
+        @if $property6 == font-weight and $value6
+            #{$property6}: $value6
+
+@include Boton-choose("Boton1", padding, 20px, margin, 10px, background-color, green, color, yellow, font-size, 16pt, font-weight, 700)
+@include Boton-choose("Boton2", padding, 30px, margin, 15px, background-color, yellow, color, red, font-size, 18pt, font-weight, 800)
+@include Boton-choose("Boton3", padding, 40px, margin, 20px, background-color, red, color, green, font-size, 20pt, font-weight, 900)
+
+.Boton-Boton1
+    display: flex
+    flex-direction: row
+    text-align: center
+    text-decoration: none
+    border-radius: 25px
+
+.Boton-Boton2
+    display: flex
+    flex-direction: row
+    text-align: center
+    text-decoration: none
+    border-radius: 25px
+
+.Boton-Boton3
+    display: flex
+    flex-direction: row
+    text-align: center
+    text-decoration: none
+    border-radius: 25px
