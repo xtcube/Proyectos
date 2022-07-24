@@ -1,0 +1,108 @@
+*{
+    margin: 1px;
+    padding: 1px;
+}
+.colAside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+aside{
+    grid-column: span 6;
+    background-color: #202020;
+    padding: 10px 2px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh; 
+}
+.texto{
+    text-align: center;
+    text-decoration-color: aliceblue;
+    font-size: 12px;
+}
+body {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    background-color: #202020;
+}
+#derecha {
+    grid-column: span 94;
+}
+.navegacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #202020;
+}
+.container-1{
+    display: flex;
+    flex-direction: row;
+    width: 680px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: static;
+  }
+  .container-1 input#search{
+    width: 680px;
+    height: 45px;
+    background: #101010;
+    border: 1px solid;
+    font-size: 14pt;
+    color : #303030;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+  }  
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #707070;
+ }
+  
+ .container-1 input#search:-moz-placeholder { /* Firefox 18- */
+    color: #707070;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {  /* Firefox 19+ */
+    color: #707070;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #707070;  
+ }
+  #categorias{
+    display: flex;
+    flex-direction: row;
+    border-style: ridge;
+    border-right-style: none;
+    border-left-style: none;
+    justify-content: left;
+    border-color: #404040;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    background-color: #202020;
+  }
+.boton{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: #303030;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 1ch;
+    margin-bottom: 1ch;
+    margin-left: 1ch;
+    margin-right: 1ch;
+    padding: 10px;
+}
+.boton:hover{
+    background-color: rgb(70, 70, 70);
+    border-color: whitesmoke; 
+}
+.video {
+    background-color: #181818;
+    }
