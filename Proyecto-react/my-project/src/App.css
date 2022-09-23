@@ -1,0 +1,45 @@
+body {
+  background-color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+.board {
+  align-items: center;
+  margin-left: 30%;
+  margin-top: 20px;
+  border: 1px solid #777;
+  outline: 1px solid #333;
+  outline-offset: 5px;
+}
+
+.instructions {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.instructions__player {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.play-info {
+  position: absolute;
+  top: 50%;
+  margin-left: 45%;
+  width: 200px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content:  center;
+  align-items: center;
+  color: red;
+  background-color: black;
+}
+
+.button {
+  padding: 10px 30px;
+  margin: 20px auto 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
